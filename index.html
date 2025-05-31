@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Organigramme officiel du club IQRAA - ESTE">
+    <title>Organigramme club IQRAA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header role="banner">
+        <div class="header-container">
+            <img src="logoeste.png" alt="Logo ESTE" class="logo" width="80" height="80">
+            <div class="header-title">
+                <h1>Organigramme du club IQRAA</h1>
+            </div>
+            <img src="logoiq.png" alt="Logo IQRAA" class="logo" width="80" height="80">
+        </div>
+    </header>
+    <main class="org-chart" role="main">
+        <div class="org-chart">
+        <!-- Niveau Direction -->
+        <section class="direction">
+            <!-- Présidente -->
+            <div class="member president">
+                <div class="photo-wrapper">
+                    <img src="assets/photos/presidente.png" alt="Présidente" class="photo">
+                </div>
+                <div class="info">
+                    <h2>Ait Nachit Hiba</h2>
+                    <p>Présidente</p>
+                </div>
+            </div>
+            
+            <div class="connector"></div>
+
+            <!-- Vice-Présidente -->
+            <div class="member vice-president">
+                <div class="photo-wrapper">
+                    <img src="assets/photos/vice-president.jpg" alt="Vice-Présidente" class="photo">
+                </div>
+                <div class="info">
+                    <h2>Abnay Nada</h2>
+                    <p>Vice-Présidente</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="connector"></div>
+
+        <!-- Niveau Secrétariat -->
+        <section class="secretariat">
+            <div class="members-row">
+                <div class="member secretary">
+                    <div class="photo-wrapper">
+                        <img src="assets/photos/secretaire.jpg" alt="Secrétaire" class="photo">
+                    </div>
+                    <div class="info">
+                        <h2>Achoukri Khadija</h2>
+                        <p>Secrétaire Générale</p>
+                    </div>
+                </div>
+                <div class="member secretary-assistant">
+                    <div class="photo-wrapper">
+                        <img src="assets/photos/adjoint.jpg" alt="Secrétaire Adjoint" class="photo">
+                    </div>
+                    <div class="info">
+                        <h2>Hicham dyane</h2>
+                        <p>Secrétaire Adjoint</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="connector"></div>
+
+        <!-- Niveau Responsables -->
+        <section class="responsables">
+            <div class="scroll-container">
+                <div class="members-row" id="responsables-list">
+                    <!-- Rempli dynamiquement par JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <div class="connector"></div>
+
+        <!-- Niveau Adjoints -->
+        <section class="adjoints">
+            <div class="scroll-container">
+                <div class="members-row" id="adjoints-list">
+                    <!-- Rempli dynamiquement par JavaScript -->
+                </div>
+            </div>
+        </section>
+    </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <p class="copy">&copy; <time datetime="2025">2025</time> Club IQRAA. Tous droits réservés.</p>
+            <nav aria-label="Liens légaux">
+                <a href="#" rel="noopener">Mentions légales</a>
+                <a href="#" rel="noopener">Politique de confidentialité</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
