@@ -13,8 +13,8 @@
     --photo-size-small: 85px;
     --light-footer: #f0f4f8;
     --scroll-speed: 40s; /* Vitesse de défilement automatique */
-    --header-margin-bottom: 0.8rem; /* Réduction de l'espace sous le header */
-    --main-margin-top: 0.2rem; /* Réduction de l'espace au-dessus du main */
+    --header-margin-bottom: 1.8rem; /* Réduction de l'espace sous le header */
+    --main-margin-top: 2.2rem; /* Réduction de l'espace au-dessus du main */
 }
 
 /* Reset et styles de base */
@@ -35,19 +35,41 @@ body {
 
 /* Header modernisé */
 .header-container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centre horizontalement */
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Centre le contenu */
+    align-items: center;
+    width: 80%;
+    max-width: 1200px; /* Limite la largeur maximale */
+    background: white;
+    border-radius: 1rem;
+    box-shadow: var(--card-shadow);
+    padding: 0.8rem 1.5rem;
+    margin: 1rem auto; /* Ajoute une marge en haut */
+}
+
+/* Ajoutez un conteneur pour centrer le contenu du header */
+.header-inner {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0.8rem 1.5rem;
-    background: white;
-    border-radius: var(--border-radius);
-    box-shadow: var(--card-shadow);
-    margin-bottom: var(--header-margin-bottom);
+    gap: 2rem; /* Espace entre les éléments */
 }
 
+/* Ajoutez un padding-top au main pour compenser le header fixe */
+.org-chart {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: calc(100px + 2rem);
+    padding: 1rem;
+    padding-top: 0;
+    padding-top: 0/* Hauteur du header + espace supplémentaire */
+}
 .header-title {
     flex-grow: 1;
     text-align: center;
@@ -289,6 +311,7 @@ footer a:hover {
     }
 
     .header-container {
+        width: 90%;
         padding: 0.6rem 1rem;
     }
 
@@ -331,6 +354,7 @@ footer a:hover {
     }
 
     .header-container {
+        width: 95%;
         flex-direction: column;
         gap: 0.5rem;
     }
