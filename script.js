@@ -1,23 +1,23 @@
 // Configuration des membres
 const orgData = {
-    level3: [
+   level3: [
         {name: "Nassour yakhoub", role: "R.DESIGN", photo: "ns.jpg"},
-        {name: "Kaddi Imane", role: "R.Trésorerie", photo: "moussa.jpg"},
+        {name: "Kaddi Imane", role: "R.Trésorerie", photo: "kaddi.jpg"},
         {name: "Bensiali Zineb", role: "R.Communication & Sponsoring", photo: "zeyneb.png"},
-        {name: "Taroui Salma", role: "R.Photographie", photo: "moussa.jpg"},
+        {name: "Taroui Salma", role: "R.Photographie", photo: "salma.jpg"},
         {name: "Adam Mahamat", role: "R.Logoistique & Materiel", photo: "adam.png"},
         {name: "Fadoua Debagh", role: "R.Protocole & Reception", photo: "fadoua.png"},
         {name: "Hamit Bokhit", role: "R.Lecture & Rédaction", photo: "hamit.png"},
         {name: "Lionel Jolidon", role: "R.Relations internationales", photo: "jolidon.png"},
         {name: "Smat Samia", role: "R.Organisation & Event", photo: "smat.png"},
-        {name: "Badi Munga", role: "R.Art & Culture", photo: "moussa.jpg"}
+        {name: "Badi Munga", role: "R.Art & Culture", photo: "dickson.jpg"},
     ],
     level4: [
         {name: "Idriss Ahmat", role: "R.A.Protocole & Reception", photo: "idriss.jpg"},
-        {name: "Ghizlan Bary", role: "R.A.Logoistique & Materiel", photo: "moussa.jpg"},
-        {name: "Nouhaila Ouaragui", role: "R.A.Trésorerie", photo: "moussa.jpg"},
-        {name: "Fatima Lambitel", role: "R.A.Lecture & Rédaction", photo: "moussa.jpg"},
-        {name: "Hiba Belyouni", role: "R.A.Organisation & Event", photo: "moussa.jpg"}
+        {name: "Ghizlan Bary", role: "R.A.Logoistique & Materiel", photo: "ghizlan.jpg"},
+        {name: "Nouhaila Ouaragui", role: "R.A.Trésorerie", photo: "nouheila.jpg"},
+        {name: "Fatima Lambitel", role: "R.A.Lecture & Rédaction", photo: "lambitel.jpg"},
+        {name: "Hiba Belyouni", role: "R.A.Organisation & Event", photo: "belyouni.jpg"},
     ]
 };
 
